@@ -1,11 +1,15 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
-title: cv
+title: CV
+description: Academic CV
 nav: true
-nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav_order: 1
+
 ---
+
+<!-- <iframe src="https://drive.google.com/file/d/17jF1AfOqoDDLuhRpXQw3kq1cd35vipud/preview" width="120%" height="600px"></iframe> -->
+
+<div style="display: flex; justify-content: center;">
+  <iframe src="https://drive.google.com/file/d/17jF1AfOqoDDLuhRpXQw3kq1cd35vipud/preview" width="130%" height="600px" style="border: none;"></iframe>
+</div>
