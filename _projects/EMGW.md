@@ -2,7 +2,7 @@
 layout: page
 title: EM-GW
 description: |
-  <p>Searching Electromagnetic counterparts for Gravitational Waves.</p>
+  <p>Gold Hunting: Electromagnetic counterparts for Gravitational Waves.</p>
   <p style="font-size: smaller; color: gray;"><em>Image credits - <a href='https://www.youtube.com/watch?v=-Yt5EmEgz2w'>LIGO Virgo KAGRA</a></em></p>
 img: assets/img/emgw.gif
 importance: 2
