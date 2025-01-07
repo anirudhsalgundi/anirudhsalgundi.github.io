@@ -11,7 +11,7 @@ profile:
   more_info: >
     <div style="text-align: center;">
       <i class="fas fa-envelope"></i> 
-      <a href="mailto:salgundi.anirudh@gmail.com">salgundi.anirudh@gmail.com</a>
+      <a href="mailto:anirudhsalgundi@gmail.com">anirudhsalgundi.com</a>
     </div>
 
 
