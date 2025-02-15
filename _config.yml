@@ -18,7 +18,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: giphy.webp # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://anirudhsalgundi.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: ""  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -66,7 +66,7 @@ instagram_id: # your instagram id
 linkedin_username: Anirudh Salgundi # your LinkedIn user name
 orcid_id:  0000-0003-3173-4691 #0000-0003-3173-4691 # your ORCID ID https://orcid.org/0000-0003-3173-4691
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: OaDe5CkAAAAJ # your Google Scholar ID
+scholar_userid: BdMzZJ4AAAAJ # your Google Scholar ID
 x_username: TheAwesomeAni # your X handle
 nasa_ads_url: https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy)&q=Anirudh%20Salgundi&sort=date%20desc%2C%20bibcode%20desc&p_=0 # your NASA ADS URL
 contact_note: >
@@ -148,8 +148,6 @@ newsletter:
 
 collections:
   news:
-    defaults: # if not specified, the default layout will be used
-      layout: post
     output: true
     permalink: /:collection/:title/
   projects:
