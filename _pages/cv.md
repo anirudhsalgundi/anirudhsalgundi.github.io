@@ -37,5 +37,5 @@ nav_order: 1
 <div style="display: flex; justify-content: center; padding: 25px;">
   <iframe src="https://anirudhsalgundi.github.io/Academic_CV/Academic_CV.pdf" 
           style="width: 120%; max-width: 1500px; height: 750px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
-  </iframe>
+  </iframe> 
 </div>
