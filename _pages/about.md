@@ -32,10 +32,3 @@ social: true
 <p style="text-align: justify;">
     Outside of science, I am a percussionist and vocalist trained in <strong>Indian Classical Music</strong>.
 </p>
-
-
-
-<script async src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/busuanzi.pure.mini.js"></script>
-<p style="text-align: center; margin-top: 30px">
-    You are visitor #<span id="busuanzi_value_page_pv"></span> ;)
-</p>
