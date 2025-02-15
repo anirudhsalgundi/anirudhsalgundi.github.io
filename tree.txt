@@ -1,0 +1,512 @@
+.
+├── CONTRIBUTING.md
+├── CUSTOMIZE.md
+├── Dockerfile
+├── FAQ.md
+├── Gemfile
+├── Gemfile.lock
+├── INSTALL.md
+├── LICENSE
+├── README.md
+├── _bibliography
+│   └── papers.bib
+├── _config.yml
+├── _data
+│   ├── coauthors.yml
+│   ├── cv.yml
+│   ├── repositories.yml
+│   └── venues.yml
+├── _includes
+│   ├── audio.liquid
+│   ├── bib_search.liquid
+│   ├── citation.liquid
+│   ├── cv
+│   │   ├── list.liquid
+│   │   ├── list_groups.liquid
+│   │   ├── map.liquid
+│   │   ├── nested_list.liquid
+│   │   └── time_table.liquid
+│   ├── disqus.liquid
+│   ├── figure.liquid
+│   ├── footer.liquid
+│   ├── giscus.liquid
+│   ├── head.liquid
+│   ├── header.liquid
+│   ├── latest_posts.liquid
+│   ├── metadata.liquid
+│   ├── news.liquid
+│   ├── pagination.liquid
+│   ├── projects.liquid
+│   ├── projects_horizontal.liquid
+│   ├── related_posts.liquid
+│   ├── repository
+│   │   ├── repo.liquid
+│   │   ├── repo_trophies.liquid
+│   │   └── repo_user.liquid
+│   ├── resume
+│   │   ├── awards.liquid
+│   │   ├── basics.liquid
+│   │   ├── certificates.liquid
+│   │   ├── education.liquid
+│   │   ├── interests.liquid
+│   │   ├── languages.liquid
+│   │   ├── projects.liquid
+│   │   ├── publications.liquid
+│   │   ├── references.liquid
+│   │   ├── skills.liquid
+│   │   ├── volunteer.liquid
+│   │   └── work.liquid
+│   ├── scripts
+│   │   ├── analytics.liquid
+│   │   ├── back_to_top.liquid
+│   │   ├── badges.liquid
+│   │   ├── bootstrap.liquid
+│   │   ├── chartjs.liquid
+│   │   ├── diff2html.liquid
+│   │   ├── echarts.liquid
+│   │   ├── imageLayouts.liquid
+│   │   ├── jekyll_tabs.liquid
+│   │   ├── jquery.liquid
+│   │   ├── leaflet.liquid
+│   │   ├── masonry.liquid
+│   │   ├── mathjax.liquid
+│   │   ├── mermaid.liquid
+│   │   ├── misc.liquid
+│   │   ├── newsletter.liquid
+│   │   ├── progressBar.liquid
+│   │   ├── pseudocode.liquid
+│   │   ├── search.liquid
+│   │   ├── tikzjax.liquid
+│   │   ├── typograms.liquid
+│   │   ├── vega.liquid
+│   │   └── wechatModal.liquid
+│   ├── selected_papers.liquid
+│   ├── social.liquid
+│   └── video.liquid
+├── _layouts
+│   ├── about.liquid
+│   ├── archive-category.liquid
+│   ├── archive-tag.liquid
+│   ├── archive-year.liquid
+│   ├── bib.liquid
+│   ├── cv.liquid
+│   ├── default.liquid
+│   ├── distill.liquid
+│   ├── none.liquid
+│   ├── page.liquid
+│   ├── post.liquid
+│   └── profiles.liquid
+├── _pages
+│   ├── 404.md
+│   ├── about.md
+│   ├── cv.md
+│   ├── dropdown.md
+│   ├── projects.md
+│   ├── publications.md
+│   └── resources.md
+├── _plugins
+│   ├── cache-bust.rb
+│   ├── details.rb
+│   ├── download-3rd-party.rb
+│   ├── external-posts.rb
+│   ├── file-exists.rb
+│   ├── google-scholar-citations.rb
+│   ├── hide-custom-bibtex.rb
+│   ├── inspirehep-citations.rb
+│   └── remove-accents.rb
+├── _projects
+│   ├── EMGW.md
+│   ├── GRB-GROWTH.md
+│   └── X-ray_Binaries.md
+├── _sass
+│   ├── _base.scss
+│   ├── _cv.scss
+│   ├── _distill.scss
+│   ├── _layout.scss
+│   ├── _tabs.scss
+│   ├── _themes.scss
+│   ├── _typograms.scss
+│   ├── _variables.scss
+│   ├── font-awesome
+│   │   ├── _animated.scss
+│   │   ├── _bordered-pulled.scss
+│   │   ├── _core.scss
+│   │   ├── _fixed-width.scss
+│   │   ├── _functions.scss
+│   │   ├── _icons.scss
+│   │   ├── _list.scss
+│   │   ├── _mixins.scss
+│   │   ├── _rotated-flipped.scss
+│   │   ├── _screen-reader.scss
+│   │   ├── _shims.scss
+│   │   ├── _sizing.scss
+│   │   ├── _stacked.scss
+│   │   ├── _variables.scss
+│   │   ├── brands.scss
+│   │   ├── fontawesome.scss
+│   │   ├── regular.scss
+│   │   ├── solid.scss
+│   │   └── v4-shims.scss
+│   └── tabler-icons
+│       ├── tabler-icons-filled.scss
+│       ├── tabler-icons-outline.scss
+│       └── tabler-icons.scss
+├── _site
+│   ├── 404.html
+│   ├── _pages
+│   │   └── dropdown
+│   │       └── index.html
+│   ├── assets
+│   │   ├── audio
+│   │   │   └── epicaly-short-113909.mp3
+│   │   ├── bibliography
+│   │   │   └── 2018-12-22-distill.bib
+│   │   ├── css
+│   │   │   ├── academicons.min.css
+│   │   │   ├── bootstrap-toc.min.css
+│   │   │   ├── bootstrap.min.css
+│   │   │   ├── bootstrap.min.css.map
+│   │   │   ├── jekyll-pygments-themes-github.css
+│   │   │   ├── jekyll-pygments-themes-native.css
+│   │   │   ├── jupyter-grade3.css
+│   │   │   ├── jupyter-monokai.css
+│   │   │   ├── jupyter.css
+│   │   │   ├── main.css
+│   │   │   ├── main.css.map
+│   │   │   ├── mdb.min.css
+│   │   │   ├── mdb.min.css.map
+│   │   │   └── pdf-viewer.css
+│   │   ├── fonts
+│   │   │   ├── academicons.ttf
+│   │   │   ├── academicons.woff
+│   │   │   ├── tabler-icons-filled.ttf
+│   │   │   ├── tabler-icons-filled.woff
+│   │   │   ├── tabler-icons-filled.woff2
+│   │   │   ├── tabler-icons-outline.ttf
+│   │   │   ├── tabler-icons-outline.woff
+│   │   │   ├── tabler-icons-outline.woff2
+│   │   │   ├── tabler-icons.ttf
+│   │   │   ├── tabler-icons.woff
+│   │   │   └── tabler-icons.woff2
+│   │   ├── html
+│   │   │   └── relativity.html
+│   │   ├── img
+│   │   │   ├── 1.jpg
+│   │   │   ├── 10.jpg
+│   │   │   ├── 11.jpg
+│   │   │   ├── 12.jpg
+│   │   │   ├── 2.jpg
+│   │   │   ├── 3.jpg
+│   │   │   ├── 4.jpg
+│   │   │   ├── 5.jpg
+│   │   │   ├── 6.jpg
+│   │   │   ├── 7.jpg
+│   │   │   ├── 8.jpg
+│   │   │   ├── 9.jpg
+│   │   │   ├── XRB.gif
+│   │   │   ├── XRB_anim.webp
+│   │   │   ├── XRB_diagram.jpg
+│   │   │   ├── ads.svg
+│   │   │   ├── emgw.gif
+│   │   │   ├── emgw2.gif
+│   │   │   ├── emgw2.webp
+│   │   │   ├── giphy.webp
+│   │   │   ├── git.webp
+│   │   │   ├── icon.png
+│   │   │   ├── pdf_icon.png
+│   │   │   ├── prof_pic.jpg
+│   │   │   ├── prof_pic_1.jpg
+│   │   │   ├── prof_pic_2.jpg
+│   │   │   ├── prof_pic_color.png
+│   │   │   ├── publication_preview
+│   │   │   │   ├── brownian-motion.gif
+│   │   │   │   └── wave-mechanics.gif
+│   │   │   └── template_error.png
+│   │   ├── js
+│   │   │   ├── bibsearch.js
+│   │   │   ├── bootstrap-toc.min.js
+│   │   │   ├── bootstrap.bundle.min.js
+│   │   │   ├── bootstrap.bundle.min.js.map
+│   │   │   ├── common.js
+│   │   │   ├── copy_code.js
+│   │   │   ├── distillpub
+│   │   │   │   ├── overrides.js
+│   │   │   │   ├── template.v2.js
+│   │   │   │   ├── template.v2.js.map
+│   │   │   │   ├── transforms.v2.js
+│   │   │   │   └── transforms.v2.js.map
+│   │   │   ├── highlight-search-term.js
+│   │   │   ├── jupyter_new_tab.js
+│   │   │   ├── masonry.js
+│   │   │   ├── no_defer.js
+│   │   │   ├── search
+│   │   │   │   ├── base-styles.min.js
+│   │   │   │   ├── command-score.min.js
+│   │   │   │   ├── hotkeys-js
+│   │   │   │   │   └── hotkeys.esm.min.js
+│   │   │   │   ├── lit
+│   │   │   │   │   ├── decorators.min.js
+│   │   │   │   │   ├── directives
+│   │   │   │   │   │   ├── class-map.min.js
+│   │   │   │   │   │   ├── join.min.js
+│   │   │   │   │   │   ├── live.min.js
+│   │   │   │   │   │   ├── ref.min.js
+│   │   │   │   │   │   ├── repeat.min.js
+│   │   │   │   │   │   └── unsafe-html.min.js
+│   │   │   │   │   └── index.min.js
+│   │   │   │   ├── lit-element
+│   │   │   │   │   └── lit-element.min.js
+│   │   │   │   ├── lit-html
+│   │   │   │   │   ├── directives
+│   │   │   │   │   │   ├── class-map.min.js
+│   │   │   │   │   │   ├── join.min.js
+│   │   │   │   │   │   ├── live.min.js
+│   │   │   │   │   │   ├── ref.min.js
+│   │   │   │   │   │   ├── repeat.min.js
+│   │   │   │   │   │   └── unsafe-html.min.js
+│   │   │   │   │   ├── is-server.min.js
+│   │   │   │   │   └── lit-html.min.js
+│   │   │   │   ├── ninja-action.min.js
+│   │   │   │   ├── ninja-footer.min.js
+│   │   │   │   ├── ninja-header.min.js
+│   │   │   │   ├── ninja-keys.min.js
+│   │   │   │   └── reactive-element
+│   │   │   │       ├── decorators
+│   │   │   │       │   ├── custom-element.min.js
+│   │   │   │       │   ├── event-options.min.js
+│   │   │   │       │   ├── property.min.js
+│   │   │   │       │   ├── query-all.min.js
+│   │   │   │       │   ├── query-assigned-elements.min.js
+│   │   │   │       │   ├── query-assigned-nodes.min.js
+│   │   │   │       │   ├── query-async.min.js
+│   │   │   │       │   ├── query.min.js
+│   │   │   │       │   └── state.min.js
+│   │   │   │       └── reactive-element.min.js
+│   │   │   ├── shortcut-key.js
+│   │   │   ├── tabs.min.js
+│   │   │   ├── theme.js
+│   │   │   ├── typograms.js
+│   │   │   ├── vanilla-back-to-top.min.js
+│   │   │   └── zoom.js
+│   │   ├── json
+│   │   │   ├── resume.json
+│   │   │   └── table_data.json
+│   │   ├── jupyter
+│   │   │   └── blog.ipynb.html
+│   │   ├── pdf
+│   │   │   └── example_pdf.pdf
+│   │   ├── plotly
+│   │   │   └── demo.html
+│   │   ├── video
+│   │   │   ├── pexels-engin-akyurt-6069112-960x540-30fps.mp4
+│   │   │   └── tutorial_al_folio.mp4
+│   │   └── webfonts
+│   │       ├── fa-brands-400.ttf
+│   │       ├── fa-brands-400.woff2
+│   │       ├── fa-regular-400.ttf
+│   │       ├── fa-regular-400.woff2
+│   │       ├── fa-solid-900.ttf
+│   │       ├── fa-solid-900.woff2
+│   │       ├── fa-v4compatibility.ttf
+│   │       └── fa-v4compatibility.woff2
+│   ├── blog
+│   │   ├── 2022
+│   │   │   ├── displaying-external-posts-on-your-al-folio-blog
+│   │   │   │   └── index.html
+│   │   │   └── index.html
+│   │   └── 2024
+│   │       ├── google-gemini-updates-flash-15-gemma-2-and-project-astra
+│   │       │   └── index.html
+│   │       └── index.html
+│   ├── cv
+│   │   └── index.html
+│   ├── feed.xml
+│   ├── index.html
+│   ├── publications
+│   │   └── index.html
+│   ├── requirements.txt
+│   ├── research
+│   │   ├── EMGW
+│   │   │   └── index.html
+│   │   ├── GRB-GROWTH
+│   │   │   └── index.html
+│   │   ├── X-ray_Binaries
+│   │   │   └── index.html
+│   │   └── index.html
+│   ├── resources
+│   │   └── index.html
+│   ├── robots.txt
+│   └── sitemap.xml
+├── assets
+│   ├── audio
+│   │   └── epicaly-short-113909.mp3
+│   ├── bibliography
+│   │   └── 2018-12-22-distill.bib
+│   ├── css
+│   │   ├── academicons.min.css
+│   │   ├── bootstrap-toc.min.css
+│   │   ├── bootstrap.min.css
+│   │   ├── bootstrap.min.css.map
+│   │   ├── jekyll-pygments-themes-github.css
+│   │   ├── jekyll-pygments-themes-native.css
+│   │   ├── jupyter-grade3.css
+│   │   ├── jupyter-monokai.css
+│   │   ├── jupyter.css
+│   │   ├── main.scss
+│   │   ├── mdb.min.css
+│   │   ├── mdb.min.css.map
+│   │   └── pdf-viewer.css
+│   ├── fonts
+│   │   ├── academicons.ttf
+│   │   ├── academicons.woff
+│   │   ├── tabler-icons-filled.ttf
+│   │   ├── tabler-icons-filled.woff
+│   │   ├── tabler-icons-filled.woff2
+│   │   ├── tabler-icons-outline.ttf
+│   │   ├── tabler-icons-outline.woff
+│   │   ├── tabler-icons-outline.woff2
+│   │   ├── tabler-icons.ttf
+│   │   ├── tabler-icons.woff
+│   │   └── tabler-icons.woff2
+│   ├── html
+│   │   └── relativity.html
+│   ├── img
+│   │   ├── 1.jpg
+│   │   ├── 10.jpg
+│   │   ├── 11.jpg
+│   │   ├── 12.jpg
+│   │   ├── 2.jpg
+│   │   ├── 3.jpg
+│   │   ├── 4.jpg
+│   │   ├── 5.jpg
+│   │   ├── 6.jpg
+│   │   ├── 7.jpg
+│   │   ├── 8.jpg
+│   │   ├── 9.jpg
+│   │   ├── XRB.gif
+│   │   ├── XRB_anim.webp
+│   │   ├── XRB_diagram.jpg
+│   │   ├── ads.svg
+│   │   ├── emgw.gif
+│   │   ├── emgw2.gif
+│   │   ├── emgw2.webp
+│   │   ├── giphy.webp
+│   │   ├── git.webp
+│   │   ├── icon.png
+│   │   ├── pdf_icon.png
+│   │   ├── prof_pic.jpg
+│   │   ├── prof_pic_1.jpg
+│   │   ├── prof_pic_2.jpg
+│   │   ├── prof_pic_color.png
+│   │   ├── publication_preview
+│   │   │   ├── brownian-motion.gif
+│   │   │   └── wave-mechanics.gif
+│   │   └── template_error.png
+│   ├── js
+│   │   ├── bibsearch.js
+│   │   ├── bootstrap-toc.min.js
+│   │   ├── bootstrap.bundle.min.js
+│   │   ├── bootstrap.bundle.min.js.map
+│   │   ├── common.js
+│   │   ├── copy_code.js
+│   │   ├── distillpub
+│   │   │   ├── overrides.js
+│   │   │   ├── template.v2.js
+│   │   │   ├── template.v2.js.map
+│   │   │   ├── transforms.v2.js
+│   │   │   └── transforms.v2.js.map
+│   │   ├── highlight-search-term.js
+│   │   ├── jupyter_new_tab.js
+│   │   ├── masonry.js
+│   │   ├── no_defer.js
+│   │   ├── search
+│   │   │   ├── base-styles.min.js
+│   │   │   ├── command-score.min.js
+│   │   │   ├── hotkeys-js
+│   │   │   │   └── hotkeys.esm.min.js
+│   │   │   ├── lit
+│   │   │   │   ├── decorators.min.js
+│   │   │   │   ├── directives
+│   │   │   │   │   ├── class-map.min.js
+│   │   │   │   │   ├── join.min.js
+│   │   │   │   │   ├── live.min.js
+│   │   │   │   │   ├── ref.min.js
+│   │   │   │   │   ├── repeat.min.js
+│   │   │   │   │   └── unsafe-html.min.js
+│   │   │   │   └── index.min.js
+│   │   │   ├── lit-element
+│   │   │   │   └── lit-element.min.js
+│   │   │   ├── lit-html
+│   │   │   │   ├── directives
+│   │   │   │   │   ├── class-map.min.js
+│   │   │   │   │   ├── join.min.js
+│   │   │   │   │   ├── live.min.js
+│   │   │   │   │   ├── ref.min.js
+│   │   │   │   │   ├── repeat.min.js
+│   │   │   │   │   └── unsafe-html.min.js
+│   │   │   │   ├── is-server.min.js
+│   │   │   │   └── lit-html.min.js
+│   │   │   ├── ninja-action.min.js
+│   │   │   ├── ninja-footer.min.js
+│   │   │   ├── ninja-header.min.js
+│   │   │   ├── ninja-keys.min.js
+│   │   │   └── reactive-element
+│   │   │       ├── decorators
+│   │   │       │   ├── custom-element.min.js
+│   │   │       │   ├── event-options.min.js
+│   │   │       │   ├── property.min.js
+│   │   │       │   ├── query-all.min.js
+│   │   │       │   ├── query-assigned-elements.min.js
+│   │   │       │   ├── query-assigned-nodes.min.js
+│   │   │       │   ├── query-async.min.js
+│   │   │       │   ├── query.min.js
+│   │   │       │   └── state.min.js
+│   │   │       └── reactive-element.min.js
+│   │   ├── shortcut-key.js
+│   │   ├── tabs.min.js
+│   │   ├── theme.js
+│   │   ├── typograms.js
+│   │   ├── vanilla-back-to-top.min.js
+│   │   └── zoom.js
+│   ├── json
+│   │   ├── resume.json
+│   │   └── table_data.json
+│   ├── jupyter
+│   │   └── blog.ipynb
+│   ├── pdf
+│   │   └── example_pdf.pdf
+│   ├── plotly
+│   │   └── demo.html
+│   ├── video
+│   │   ├── pexels-engin-akyurt-6069112-960x540-30fps.mp4
+│   │   └── tutorial_al_folio.mp4
+│   └── webfonts
+│       ├── fa-brands-400.ttf
+│       ├── fa-brands-400.woff2
+│       ├── fa-regular-400.ttf
+│       ├── fa-regular-400.woff2
+│       ├── fa-solid-900.ttf
+│       ├── fa-solid-900.woff2
+│       ├── fa-v4compatibility.ttf
+│       └── fa-v4compatibility.woff2
+├── bin
+│   ├── cibuild
+│   ├── deploy
+│   └── entry_point.sh
+├── docker-compose-slim.yml
+├── docker-compose.yml
+├── lighthouse_results
+│   ├── desktop
+│   │   ├── alshedivat_github_io_al_folio_.html
+│   │   └── pagespeed.svg
+│   └── mobile
+│       ├── alshedivat_github_io_al_folio_.html
+│       └── pagespeed.svg
+├── package-lock.json
+├── package.json
+├── purgecss.config.js
+├── requirements.txt
+├── robots.txt
+└── tree.txt
+
+84 directories, 426 files
