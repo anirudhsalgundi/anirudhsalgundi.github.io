@@ -41,12 +41,11 @@ nav_order: 3
     </div>
 </div>
 </div> -->
-
-<div style="width: 80%; margin: auto;">
-    <div style="display: flex; width: 100%; padding-top: 20px;">
-        <!-- Left Column -->
-        <div style="width: 50%; padding-right: 20px; text-align: justify; border-right: 2px solid #ccc;">
-            <h2 style="text-align: center; text-decoration: underline;">Resources for Astronomers</h2>
+<div style="width: 120%; margin: auto;">
+    <div style="display: flex; flex-direction: column; width: 80%; padding-top: 20px;">       
+        <!-- First Section -->
+        <div style="text-align: justify; padding-bottom: 20px;">
+            <h2 style="text-align: center; font-weight: bold; text-decoration: underline;">Resources for Astronomers</h2>
             <ul>
                 <li><a href="https://gcn.nasa.gov/circulars">GCN Circulars</a>: NASA's Time-Domain and Multimessenger Alert System.</li>
                 <li><a href="https://astronomerstelegram.org/">Astronomer's Telegram</a>: A publication service for quickly disseminating information on new astronomical observations.</li>
@@ -55,17 +54,17 @@ nav_order: 3
                 <li><a href="https://www.astropy.org/">Astropy</a>: A collection of Python software packages designed for use in astronomy.</li>
                 <li><a href="https://gracedb.ligo.org/">GraceDB</a>: The Gravitational-Wave Candidate Event Database (GraceDB) operated by the LIGO Scientific Collaboration.</li>
                 <li><a href="https://apod.nasa.gov/apod/">Astronomy Picture of the Day</a>: A daily astronomy-related image with a brief explanation.</li>
-                <!-- <li><a href=""></a>: </li> -->
             </ul>
         </div>
-        <!-- Right Column -->
-        <div style="width: 50%; padding-left: -20px; text-align: justify;">
-            <h2 style="text-align: center; text-decoration: underline;">Other Resources</h2>
+        <!-- Horizontal Line -->
+        <hr style="width: 80%; border: 1px solid #ccc; margin: 20px auto;">
+        <!-- Second Section -->
+        <div style="text-align: justify; padding-top: 20px;">
+            <h2 style="text-align: center; font-weight: bold; text-decoration: underline;">Other Resources</h2>
             <ul>
                 <li><a href="https://github.com/">GitHub</a>: A platform for developers to create, store, manage, and share their code.</li>
                 <li><a href="https://www.py4e.com/lessons">Python for Everybody</a>: Free materials, lectures, books, and assignments to help students learn Python.</li>
                 <li><a href="https://apps.automeris.io/wpd4/">WebPlotDigitizer</a>: A program for digitizing data from plots and graphs in images.</li>
-                <!-- <li><a href=""></a>: </li> -->
             </ul>
         </div>
     </div>
