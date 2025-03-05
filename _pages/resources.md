@@ -65,6 +65,8 @@ nav_order: 3
                 <li><a href="https://github.com/">GitHub</a>: A platform for developers to create, store, manage, and share their code.</li>
                 <li><a href="https://www.py4e.com/lessons">Python for Everybody</a>: Free materials, lectures, books, and assignments to help students learn Python.</li>
                 <li><a href="https://apps.automeris.io/wpd4/">WebPlotDigitizer</a>: A program for digitizing data from plots and graphs in images.</li>
+                <li><a href="https://www.shellcheck.net/">ShellCheck</a>: Finds bugs in your shell scripts.</li>
+                <li><a href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a>: A Practical Programming for Total Beginners.</li>
             </ul>
         </div>
     </div>
