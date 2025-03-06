@@ -54,6 +54,7 @@ nav_order: 3
                 <li><a href="https://www.astropy.org/">Astropy</a>: A collection of Python software packages designed for use in astronomy.</li>
                 <li><a href="https://gracedb.ligo.org/">GraceDB</a>: The Gravitational-Wave Candidate Event Database (GraceDB) operated by the LIGO Scientific Collaboration.</li>
                 <li><a href="https://apod.nasa.gov/apod/">Astronomy Picture of the Day</a>: A daily astronomy-related image with a brief explanation.</li>
+                <li><a href="https://space.fm/">space.fm</a>: An educational website offering interactive content, animations, and tools for learning about astronomy and space science.</li>
             </ul>
         </div>
         <!-- Horizontal Line -->
@@ -67,6 +68,7 @@ nav_order: 3
                 <li><a href="https://apps.automeris.io/wpd4/">WebPlotDigitizer</a>: A program for digitizing data from plots and graphs in images.</li>
                 <li><a href="https://www.shellcheck.net/">ShellCheck</a>: Finds bugs in your shell scripts.</li>
                 <li><a href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a>: A Practical Programming for Total Beginners.</li>
+                <li><a href="https://topmate.io/">Topmate</a>: Make tailored connections for your goals.</li>
             </ul>
         </div>
     </div>
