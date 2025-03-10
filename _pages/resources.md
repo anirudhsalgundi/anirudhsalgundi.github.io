@@ -69,6 +69,8 @@ nav_order: 3
                 <li><a href="https://www.shellcheck.net/">ShellCheck</a>: Finds bugs in your shell scripts.</li>
                 <li><a href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a>: A Practical Programming for Total Beginners.</li>
                 <li><a href="https://topmate.io/">Topmate</a>: Make tailored connections for your goals.</li>
+                <li><a href="https://gwern.net/doc/science/1986-hamming">You and your research</a>: Transcript of famous & widely-quoted 1986-03-07 lecture by Turing-Award mathematician Richard Hamming about how to do scientific research & development based on his life, antecedents of eminence, people he knew, the growing use of computers in science, navigating bureaucracy, maintaining creativity, and running Bell Labs.</li>
+                <li><a href="https://quarto.org/">Quarto</a>: An open-source scientific and technical publishing system</li>
             </ul>
         </div>
     </div>
