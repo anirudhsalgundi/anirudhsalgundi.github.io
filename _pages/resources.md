@@ -55,6 +55,8 @@ nav_order: 3
                 <li><a href="https://gracedb.ligo.org/">GraceDB</a>: The Gravitational-Wave Candidate Event Database (GraceDB) operated by the LIGO Scientific Collaboration.</li>
                 <li><a href="https://apod.nasa.gov/apod/">Astronomy Picture of the Day</a>: A daily astronomy-related image with a brief explanation.</li>
                 <li><a href="https://space.fm/">space.fm</a>: An educational website offering interactive content, animations, and tools for learning about astronomy and space science.</li>
+                <li><a href="https://phys.org/space-news/">Phys.org</a>: Astronomy & Space news.</li>
+                <li><a href="https://heasarc.gsfc.nasa.gov/">HEASARC</a>: The High Energy Astrophysics Science Archive Research Center (HEASARC) is the primary archive for NASA's (and other space agencies') missions studying electromagnetic radiation from extremely energetic cosmic phenomena.</li>
             </ul>
         </div>
         <!-- Horizontal Line -->
@@ -70,7 +72,7 @@ nav_order: 3
                 <li><a href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a>: A Practical Programming for Total Beginners.</li>
                 <li><a href="https://topmate.io/">Topmate</a>: Make tailored connections for your goals.</li>
                 <li><a href="https://gwern.net/doc/science/1986-hamming">You and your research</a>: Transcript of famous & widely-quoted 1986-03-07 lecture by Turing-Award mathematician Richard Hamming about how to do scientific research & development based on his life, antecedents of eminence, people he knew, the growing use of computers in science, navigating bureaucracy, maintaining creativity, and running Bell Labs.</li>
-                <li><a href="https://quarto.org/">Quarto</a>: An open-source scientific and technical publishing system</li>
+                <li><a href="https://quarto.org/">Quarto</a>: An open-source scientific and technical publishing system.</li>
             </ul>
         </div>
     </div>
