@@ -57,6 +57,8 @@ nav_order: 3
                 <li><a href="https://space.fm/">space.fm</a>: An educational website offering interactive content, animations, and tools for learning about astronomy and space science.</li>
                 <li><a href="https://phys.org/space-news/">Phys.org</a>: Astronomy & Space news.</li>
                 <li><a href="https://heasarc.gsfc.nasa.gov/">HEASARC</a>: The High Energy Astrophysics Science Archive Research Center (HEASARC) is the primary archive for NASA's (and other space agencies') missions studying electromagnetic radiation from extremely energetic cosmic phenomena.</li>
+                <li><a href="https://docs.stingray.science/en/stable/">Stingray</a>: Python library designed to perform times series analysis and related tasks on astronomical light curves.</li>
+                <li><a href="https://lightkurve.github.io/lightkurve/">Lightkurve</a>: A friendly Python package for making discoveries with Kepler & TESS.</li >
             </ul>
         </div>
         <!-- Horizontal Line -->
