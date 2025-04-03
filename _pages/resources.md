@@ -75,6 +75,7 @@ nav_order: 3
                 <li><a href="https://topmate.io/">Topmate</a>: Make tailored connections for your goals.</li>
                 <li><a href="https://gwern.net/doc/science/1986-hamming">You and your research</a>: Transcript of famous & widely-quoted 1986-03-07 lecture by Turing-Award mathematician Richard Hamming about how to do scientific research & development based on his life, antecedents of eminence, people he knew, the growing use of computers in science, navigating bureaucracy, maintaining creativity, and running Bell Labs.</li>
                 <li><a href="https://quarto.org/">Quarto</a>: An open-source scientific and technical publishing system.</li>
+                <li><a href="https://drive.google.com/drive/u/0/folders/1tIFPRS_LC7XwLgR1hT5lnbp3-PPnjdgB">GRE Prep</a>: Materials for GRE Preparation (It is a google drive link. So I am not sure for how long this will remain avialable.)</li>
             </ul>
         </div>
     </div>
