@@ -1,0 +1,115 @@
+/* Publications Page Specific Styles */
+
+.publications-section {
+  padding: var(--spacing-lg);
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(5px);
+}
+
+.publications-section h1 {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-primary);
+}
+
+.publications-intro {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-xl);
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+  animation-delay: 0.1s;
+}
+
+.publications-intro p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.external-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--transition-speed);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.external-link:hover {
+  color: var(--color-primary-light);
+  text-decoration: underline;
+}
+
+.favicon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.publications-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.publication-category {
+  margin-bottom: var(--spacing-xl);
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.publication-category:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.publication-category:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.publication-category h2 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: var(--spacing-xs);
+}
+
+.publication-category ol {
+  margin-left: var(--spacing-md);
+}
+
+.publication-category li {
+  margin-bottom: var(--spacing-md);
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.publication-category li strong {
+  color: var(--color-primary-light);
+}
+
+.publication-category li em {
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
+
+.pub-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--transition-speed);
+  margin: 0 2px;
+}
+
+.pub-link:hover {
+  color: var(--color-primary-light);
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .publications-section {
+    padding: var(--spacing-md);
+  }
+}

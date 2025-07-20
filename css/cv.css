@@ -1,0 +1,50 @@
+/* CV Page Specific Styles */
+
+.cv-section {
+  background-color: var(--color-bg-secondary);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--spacing-xl);
+  border: 1px solid var(--color-border);
+}
+
+.cv-section h1 {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-primary);
+}
+
+.download-btn-container {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.download-btn {
+  padding: var(--spacing-xs) var(--spacing-md);
+}
+
+.cv-viewer {
+  max-width: 1000px;
+  margin: 0 auto;
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+  animation-delay: 0.2s;
+}
+
+.cv-viewer iframe {
+  width: 100%;
+  min-height: 800px;
+  background-color: white;
+  border-radius: var(--border-radius);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .cv-section {
+    padding: var(--spacing-md);
+  }
+
+  .cv-viewer iframe {
+    min-height: 600px;
+  }
+}
